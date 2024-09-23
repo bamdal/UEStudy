@@ -72,3 +72,7 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# 수업용 추가 무시
+Basic/Intermediate/*
+Basic/Saved/*
