@@ -2,7 +2,7 @@
 
 
 #include "ATest.h"
-#include "DebugMecros.h"
+#include "JMSDebugMecros.h"
 // Sets default values
 AATest::AATest()
 {
@@ -15,31 +15,46 @@ AATest::AATest()
 void AATest::BeginPlay()
 {
 	Super::BeginPlay();
+
+#pragma region 단순 레이저 쏘기
+	/*if (GetWorld())
+{
+	FVector Location = GetActorLocation();
+	JMSDRAW_SPHERE(Location);
+
+	FVector Start, End;
+	Start = Location;
+	End = GetActorForwardVector() * 1000;
+
+
+
+	JMSDRAW_VECTOR(Start, End);
+	//JMSDRAW_POINT(End);
+
+	//DrawDebugLine(GetWorld(), Start, End, FColor::Blue, true, 100);
+
 	
-	if (GetWorld())
-	{
-		FVector Location = GetActorLocation();
-		JMSDRAW_SPHERE(Location);
+	//DrawDebugSphere(GetWorld(), GetActorLocation(), 50.0f, 12, FColor::Green, true);
+}*/
+#pragma endregion
 
-		FVector Start, End;
-		Start = Location;
-		End = GetActorForwardVector() * 1000;
 
-		JMSDRAW_VECTOR(Start, End);
-		//JMSDRAW_POINT(End);
-
-		//DrawDebugLine(GetWorld(), Start, End, FColor::Blue, true, 100);
-
-		
-		//DrawDebugSphere(GetWorld(), GetActorLocation(), 50.0f, 12, FColor::Green, true);
-	}
-
+	
 }
 
 // Called every frame
 void AATest::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	RunningTime += DeltaTime;
 
+	float DeltaVal = Amplitude * FMath::Sin(RunningTime * TimeConstant);
+	AddActorWorldOffset(FVector(0.0f,DeltaVal,0.0f));
+	
+	FVector Location = GetActorLocation();
+	JMSDRAW_SPHERE_SingleFrame(Location);
+	JMSDRAW_VECTOR_SingleFrame(Location,Location + (GetActorForwardVector() * 100.0f));
+	
+	
 }
 

@@ -37,5 +37,15 @@ public:
 	//UPROPERTY(EditAnywhere)
 	//FString TestStr = 'a';
 
+private:
+	UPROPERTY(VisibleAnywhere)
+	float RunningTime = 0.0f;
 
+	// 진폭
+	UPROPERTY(EditDefaultsOnly)
+	float Amplitude = 0.5f;
+
+	// sin 속도를 가속
+	UPROPERTY(EditInstanceOnly)
+	float TimeConstant = 10.0f;
 };
