@@ -82,3 +82,5 @@ Basic/Content/EX06/Character/Animation/*
 Basic/Content/StarterContent/*
 Basic/*.zip
 Basic/StarterContent/*
+Basic/Binaries/*
+Basic/.vsconfig
