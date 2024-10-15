@@ -2,7 +2,7 @@
 
 
 #include "ATest.h"
-#include "JMSDebugMecros.h"
+#include "../JMSDebugMecros.h"
 // Sets default values
 AATest::AATest()
 {
