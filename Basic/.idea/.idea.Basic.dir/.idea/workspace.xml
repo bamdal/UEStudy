@@ -9,9 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX10_CPP/L_EX10_CPP.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX10_CPP/L_EX10_CPP.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/DelegeteTrigger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/DelegeteTrigger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/DelegeteTrigger.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/DelegeteTrigger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/JMSDelegateDefine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/JMSDelegateDefine.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CppCodeGenerationId",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -200,7 +200,8 @@
       <workItem from="1728951860786" duration="2114000" />
       <workItem from="1728953994363" duration="23688000" />
       <workItem from="1729036087927" duration="1658000" />
-      <workItem from="1729039085191" duration="15574000" />
+      <workItem from="1729039085191" duration="19332000" />
+      <workItem from="1729065810723" duration="3073000" />
     </task>
     <servers />
   </component>

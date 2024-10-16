@@ -13,5 +13,11 @@ class BASIC_API UJMSGameInstance : public UGameInstance
 
 public:
 	FDelegateSignature DefaultDelegateSignature;	
+
+	FDelegateSignatureParam1 DefaultDelegateSignatureParam1;
+	FDelegateSignatureParam2 DefaultDelegateSignatureParam2;
+	FMulticastDelegateSignature MulticastDelegateSignature;
 	
+	FMulticastDelegateSignatureParam1 MulticastDelegateSignatureParam1;
+	FMulticastDelegateSignatureParam2 MulticastDelegateSignatureParam2;
 };
