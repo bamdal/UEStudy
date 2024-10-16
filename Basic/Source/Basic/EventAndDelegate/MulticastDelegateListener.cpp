@@ -28,7 +28,7 @@ void AMulticastDelegateListener::BeginPlay()
 	if(JMSGI != nullptr)
 	{
 		// 핸들 바인드
-		DelegateHandle = JMSGI->MulticastDelegateSignature.AddUObject(this,ThisClass::ToggleLight);
+		DelegateHandle = JMSGI->MulticastDelegateSignature.AddUObject(this, &ThisClass::ToggleLight);
 	}
 }
 
