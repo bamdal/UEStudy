@@ -6,10 +6,23 @@
 #include "GameFramework/Actor.h"
 #include "DelegeteTrigger.generated.h"
 
+class USphereComponent;
+
 UCLASS()
 class BASIC_API ADelegeteTrigger : public AActor
 {
 	GENERATED_BODY()
+
+public:
+	
+	UPROPERTY(EditAnywhere)
+	USphereComponent* TriggerZone;
+	
+	UFUNCTION()
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
+	UFUNCTION()
+	virtual void NotifyActorEndOverlap(AActor* OtherActor) override;
+
 	
 public:	
 	// Sets default values for this actor's properties
