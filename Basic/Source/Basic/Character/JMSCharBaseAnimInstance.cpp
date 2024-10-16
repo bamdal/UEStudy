@@ -36,7 +36,7 @@ void UJMSCharBaseAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 		JMSCharVelocity = JMSCharMovementComponent->Velocity;
 		JMSCharSpeed = UKismetMathLibrary::VSizeXY(JMSCharVelocity);
 
-		GEngine->AddOnScreenDebugMessage(-1,1,FColor::Blue,FString::Printf(TEXT("Speed %f"),JMSCharSpeed));
+		//GEngine->AddOnScreenDebugMessage(-1,1,FColor::Blue,FString::Printf(TEXT("Speed %f"),JMSCharSpeed));
 		
 		JMSShouldMove = false;
 		bool Acceleration = !JMSCharMovementComponent->GetCurrentAcceleration().Equals(FVector::ZeroVector,0);
