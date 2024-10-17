@@ -3,6 +3,7 @@
 
 #include "Trophy.h"
 
+#include "Basic/JMSGameInstance.h"
 #include "GameFramework/RotatingMovementComponent.h"
 
 
@@ -67,4 +68,11 @@ void ATrophy::OnOverlapTroPhyMesh(class UPrimitiveComponent* OverlappedComp, cla
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Blue,
 	                                 FString::Printf(TEXT("On Overlap Begin -- Name %s"), *OtherActor->GetName()));
+
+	UJMSGameInstance* JMSGI = Cast<UJMSGameInstance>(GetWorld()->GetGameInstance());
+	if(JMSGI != nullptr)
+	{
+		JMSGI->PlayerClearSingnatureDelegate.ExecuteIfBound();
+	}
+
 }

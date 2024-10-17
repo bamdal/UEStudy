@@ -4,30 +4,36 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "DeadZone.generated.h"
+#include "JMSGameListener.generated.h"
+
+class USpringArmComponent;
+class UCameraComponent;
 
 UCLASS()
-class BASIC_API ADeadZone : public AActor
+class BASIC_API AJMSGameListener : public AActor
 {
 	GENERATED_BODY()
 
-
 public:
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* DeadZone;
+	UUserWidget* PlayerDieWidget;
 
+	UPROPERTY(EditAnywhere)
+	UUserWidget* GameClearWidget;
 
-protected:
-	virtual void PostInitializeComponents() override;
+	USpringArmComponent* SpringArm;
+	
+	UPROPERTY()
+	APawn* UserPawn;
+	
+	void PlayerDie();
+	void GameClear();
 
-	UFUNCTION()
-	virtual void OnOverlapDeadZoneMesh(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor,
-									 class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
-									 const FHitResult& SweepResult);
-
+	
+	
 public:	
 	// Sets default values for this actor's properties
-	ADeadZone();
+	AJMSGameListener();
 
 protected:
 	// Called when the game starts or when spawned
