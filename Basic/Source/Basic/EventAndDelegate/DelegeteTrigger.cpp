@@ -19,7 +19,7 @@ void ADelegeteTrigger::BeginPlay()
 	
 }
 
-void ADelegeteTrigger::Tick(float DeltaTime)
+void ADelegeteTrigger::Tick(float DeltaTime)	
 {
 	Super::Tick(DeltaTime);
 
