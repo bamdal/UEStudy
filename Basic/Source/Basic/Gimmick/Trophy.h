@@ -26,6 +26,8 @@ public:
 protected:
 	virtual void PostInitializeComponents() override;
 
+	
+	
 	UFUNCTION()
 	virtual void OnOverlapTroPhyMesh(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor,
 	                                 class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,

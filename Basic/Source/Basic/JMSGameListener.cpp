@@ -5,10 +5,7 @@
 #include "Components/PrimitiveComponent.h"
 #include "JMSGameInstance.h"
 #include "Blueprint/UserWidget.h"
-#include "Camera/CameraComponent.h"
-#include "GameFramework/SpringArmComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "Kismet/KismetMathLibrary.h"
 
 
 // Sets default values

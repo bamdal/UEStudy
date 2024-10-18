@@ -10,29 +10,9 @@
     <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX06/Character/ABP_MyChar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX06/Character/ABP_MyChar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX06/Character/ABP_MyChar_Old.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX06/Character/ABP_MyChar_Old.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX06/Character/BP_MyChar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX06/Character/BP_MyChar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/AI/ABP_MyCharAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/AI/ABP_MyCharAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/AI/ABP_MyCharPawnAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/AI/ABP_MyCharPawnAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/AI/BP_MyCharAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/AI/BP_MyCharAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/Character/ABP_MyChar8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/Character/ABP_MyChar8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/Character/BP_MyChar8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/Character/BP_MyChar8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/Percepction/ABP_MyChar08_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/Percepction/ABP_MyChar08_AI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/Percepction/ABP_MyChar08_Punch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/Percepction/ABP_MyChar08_Punch.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/Percepction/BP_MyChar08_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/Percepction/BP_MyChar08_AI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX08/Percepction/BP_MyChar08_Punch.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX08/Percepction/BP_MyChar08_Punch.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX09/BP_MyChar_Mouse.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX09/BP_MyChar_Mouse.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX10_CPP/ABP_JMSCharBaseAnimInstance.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX10_CPP/ABP_JMSCharBaseAnimInstance.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Platform/BluePrint/Gimmick/BP_DeadZone.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Platform/BluePrint/Gimmick/BP_DeadZone.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Platform/BluePrint/Gimmick/Throphy/BP_Trophy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Platform/BluePrint/Gimmick/Throphy/BP_Trophy.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Platform/L_EX_Platform.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Platform/L_EX_Platform.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Ex07/ABP_MyChar7.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ex07/ABP_MyChar7.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Ex07/BP_MyChar7.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ex07/BP_MyChar7.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Ex07/Character/ABP_MyNotChar7.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ex07/Character/ABP_MyNotChar7.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Ex07/Character/BP_MyChar7.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ex07/Character/BP_MyChar7.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/JMSDelegateDefine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/EventAndDelegate/JMSDelegateDefine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Gimmick/Trophy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Gimmick/Trophy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameListener.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameListener.h" afterDir="false" />
     </list>
@@ -48,19 +28,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Experimental/WidgetEditorToolPalette/Source/WidgetEditorToolPalette/Private/DefaultTools/CreateWidgetTool.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AssetTools/Private/AssetTools.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/FunctionalTesting/Private/FunctionalTest.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -114,6 +81,7 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/PrimitiveComponentPhysics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Public/DrawDebugHelpers.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsManager.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/Basic/UHT/DeadZone.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Basic/EventAndDelegate/MulticastDelegateListener.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Basic/EventAndDelegate/MulticastDelegateParamListener.h" root0="FORCE_HIGHLIGHTING" />
@@ -262,6 +230,8 @@
       <workItem from="1729122529158" duration="13312000" />
       <workItem from="1729139604657" duration="5925000" />
       <workItem from="1729145606558" duration="7698000" />
+      <workItem from="1729208957863" duration="2973000" />
+      <workItem from="1729212979488" duration="1010000" />
     </task>
     <servers />
   </component>

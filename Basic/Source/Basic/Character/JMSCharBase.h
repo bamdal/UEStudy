@@ -16,7 +16,7 @@ class BASIC_API AJMSCharBase : public ACharacter
 {
 	GENERATED_BODY()
 
-
+	// AllowPrivateAccess Private변수도 BP에서 수정가능
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,category = Camera, meta = (AllowPrivateAccess = "true"))

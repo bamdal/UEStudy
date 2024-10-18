@@ -21,7 +21,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	UUserWidget* GameClearWidget;
 
-
+	
 	
 	UPROPERTY()
 	APawn* UserPawn;
