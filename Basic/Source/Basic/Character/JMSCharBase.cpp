@@ -31,6 +31,7 @@ AJMSCharBase::AJMSCharBase()
 	FollowCamera->SetupAttachment(CameraBoom);
 	FollowCamera->bUsePawnControlRotation = false;
 
+	
 }
 
 

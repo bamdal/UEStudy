@@ -2,6 +2,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Character/PlatformPlayerController.h"
 #include "Engine/GameInstance.h"
 #include "EventAndDelegate/JMSDelegateDefine.h"
 #include "JMSGameInstance.generated.h"
@@ -24,5 +25,6 @@ public:
 	FGameClearDelegate PlayerClearSingnatureDelegate;
 	FGameOverDelegate PlayerDieSingnatureDelegate;
 
+	
 		
 };

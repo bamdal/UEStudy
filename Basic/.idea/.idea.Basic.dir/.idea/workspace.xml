@@ -10,11 +10,14 @@
     <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX10_CPP/BP_EX10GameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX10_CPP/BP_EX10GameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Platform/L_EX_Platform.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Platform/L_EX_Platform.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/L_EX_Shooting.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/L_EX_Shooting.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/Gimmick/Trophy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Gimmick/Trophy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameListener.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameListener.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Experimental/WidgetEditorToolPalette/Source/WidgetEditorToolPalette/Private/DefaultTools/CreateWidgetTool.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AssetTools/Private/AssetTools.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/FunctionalTesting/Private/FunctionalTest.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -41,6 +75,7 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/Delegate.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/DelegateAccessHandler.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/DelegateCombinations.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/IDelegateInstance.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/HAL/Platform.h" root0="FORCE_HIGHLIGHTING" />
@@ -76,12 +111,14 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Components/MovementComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Components/PrimitiveComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/GameInstance.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Level.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Pawn.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/PrimitiveComponentPhysics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Public/DrawDebugHelpers.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/Basic/UHT/DeadZone.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Basic/EventAndDelegate/MulticastDelegateListener.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Basic/EventAndDelegate/MulticastDelegateParamListener.h" root0="FORCE_HIGHLIGHTING" />
@@ -114,21 +151,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.Basic.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.Basic.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CidrLocalAttachDebugger.recentlyUsed">
       <recent name="com.jetbrains.rider.cpp.debugger.RiderCppLLDBDriverConfiguration" />
@@ -231,7 +268,7 @@
       <workItem from="1729139604657" duration="5925000" />
       <workItem from="1729145606558" duration="7698000" />
       <workItem from="1729208957863" duration="2973000" />
-      <workItem from="1729212979488" duration="1010000" />
+      <workItem from="1729212979488" duration="5764000" />
     </task>
     <servers />
   </component>

@@ -20,6 +20,13 @@ void AJMSMovingPlatform::BeginPlay()
 	Super::BeginPlay();
 
 	StartLocation = GetActorLocation();
+	StaticMesh->OnComponentHit.AddDynamic(this,&AJMSMovingPlatform::PlayerOnHit);
+}
+
+void AJMSMovingPlatform::PlayerOnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	
 }
 
 void AJMSMovingPlatform::Tick(float DeltaTime)
