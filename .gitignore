@@ -92,3 +92,5 @@ Basic/.vsconfig
 **/Textures/*
 **/Materials/*
 **/StaticMeshGroup/*
+**/Animation/*
+**/Weapons/*

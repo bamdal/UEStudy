@@ -8,16 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX10_CPP/BP_EX10GameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX10_CPP/BP_EX10GameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Platform/L_EX_Platform.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Platform/L_EX_Platform.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX06/Character/ABP_MyChar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX06/Character/ABP_MyChar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/BP_ShootingGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/BP_ShootingGameMode.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/L_EX_Shooting.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/L_EX_Shooting.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Character/JMSCharBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Gimmick/JMSMovingPlatform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Basic/JMSGameListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/JMSGameListener.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +149,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.Basic.executor": "Debug",
+    "Uproject.Basic.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -268,7 +263,7 @@
       <workItem from="1729139604657" duration="5925000" />
       <workItem from="1729145606558" duration="7698000" />
       <workItem from="1729208957863" duration="2973000" />
-      <workItem from="1729212979488" duration="5764000" />
+      <workItem from="1729212979488" duration="8329000" />
     </task>
     <servers />
   </component>
