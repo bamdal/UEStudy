@@ -6,13 +6,21 @@
 #include "JMSCharBase.h"
 #include "JMSCharShooter.generated.h"
 
+class AJMSGun;
 /**
- * 
+ *  총쓰는 캐릭터
  */
 UCLASS()
 class BASIC_API AJMSCharShooter : public AJMSCharBase
 {
 	GENERATED_BODY()
+
+private:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AJMSGun> JMSGunClass;
+	
+	UPROPERTY()
+	AJMSGun* Gun;
 
 protected:
 	virtual void BeginPlay() override;
