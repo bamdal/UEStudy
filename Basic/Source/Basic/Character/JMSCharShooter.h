@@ -22,7 +22,15 @@ private:
 	UPROPERTY()
 	AJMSGun* Gun;
 
+public:
+	UPROPERTY(EditAnywhere, Category= Input)
+	UInputAction* IA_Shoot;
+
+	void Shoot();
+	
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	
 };

@@ -36,8 +36,18 @@ private:
 	// 타점 사운드
 	UPROPERTY(EditAnywhere)
 	USoundBase* ImpactSound;
-	
-public:	
+
+	UPROPERTY(EditAnywhere)
+	float MaxRange = 1000;
+
+public:
+	void PullTrigger();
+
+private:
+	bool GunTrace(FHitResult& Hit, FVector& ShootDirection);
+	AController* GetOwnerController() const;
+
+public:
 	// Sets default values for this actor's properties
 	AJMSGun();
 
@@ -45,8 +55,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 };

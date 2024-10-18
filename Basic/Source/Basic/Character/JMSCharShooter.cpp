@@ -3,7 +3,10 @@
 
 #include "JMSCharShooter.h"
 
+#include "EnhancedInputComponent.h"
 #include "Basic/ETC/JMSGun.h"
+
+
 
 void AJMSCharShooter::BeginPlay()
 {
@@ -22,4 +25,21 @@ void AJMSCharShooter::BeginPlay()
 void AJMSCharShooter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	//  총 쏘기 위한 추가 입력
+	if(UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
+	{
+		// Looking
+		EnhancedInputComponent->BindAction(IA_Shoot,ETriggerEvent::Started,this,&AJMSCharShooter::Shoot);
+	}
+	
+}
+
+void AJMSCharShooter::Shoot()
+{
+	if(Gun != nullptr)
+	{
+		// 총 발사 함수 호출
+		Gun->PullTrigger();
+	}
 }
