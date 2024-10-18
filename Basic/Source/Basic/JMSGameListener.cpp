@@ -25,7 +25,7 @@ void AJMSGameListener::BeginPlay()
 	Super::BeginPlay();
 
 	UserPawn = Cast<APawn>(GetWorld()->GetFirstPlayerController()->GetPawn());
-	SpringArm = UserPawn->FindComponentByClass<USpringArmComponent>();
+	
 		
 	UJMSGameInstance* JMSGI = Cast<UJMSGameInstance>(GetWorld()->GetGameInstance());
 	if (JMSGI != nullptr)
@@ -36,16 +36,24 @@ void AJMSGameListener::BeginPlay()
 	
 }
 
+void AJMSGameListener::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	Super::EndPlay(EndPlayReason);
+
+	UJMSGameInstance* JMSGI = Cast<UJMSGameInstance>(GetWorld()->GetGameInstance());
+	if (JMSGI != nullptr)
+	{
+		JMSGI->PlayerDieSingnatureDelegate.Unbind();
+		JMSGI->PlayerClearSingnatureDelegate.Unbind();
+	}
+}
+
 // Called every frame
 void AJMSGameListener::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector CameraLocation = SpringArm->GetComponentLocation();
-	FVector TargetLocation = UserPawn->GetActorLocation();
 
-
-	SpringArm->SetWorldRotation(UKismetMathLibrary::FindLookAtRotation(CameraLocation,TargetLocation));
 }
 
 // 플레이어 사망시 불림

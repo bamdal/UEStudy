@@ -88,3 +88,7 @@ Basic/*.zip
 Basic/StarterContent/*
 Basic/Binaries/*
 Basic/.vsconfig
+**/Meshes/*
+**/Textures/*
+**/Materials/*
+**/StaticMeshGroup/*

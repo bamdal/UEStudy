@@ -21,6 +21,8 @@ public:
 	FMulticastDelegateSignatureParam1 MulticastDelegateSignatureParam1;
 	FMulticastDelegateSignatureParam2 MulticastDelegateSignatureParam2;
 
-	FDelegateSignature PlayerClearSingnatureDelegate;
-	FDelegateSignature PlayerDieSingnatureDelegate;
+	FGameClearDelegate PlayerClearSingnatureDelegate;
+	FGameOverDelegate PlayerDieSingnatureDelegate;
+
+		
 };

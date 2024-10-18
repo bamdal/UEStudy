@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "JMSGameListener.generated.h"
 
-class USpringArmComponent;
+
 class UCameraComponent;
 
 UCLASS()
@@ -21,7 +21,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	UUserWidget* GameClearWidget;
 
-	USpringArmComponent* SpringArm;
+
 	
 	UPROPERTY()
 	APawn* UserPawn;
@@ -38,7 +38,7 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

@@ -17,6 +17,9 @@ DECLARE_DELEGATE_OneParam(FDelegateSignatureParam1, FLinearColor)
 DECLARE_DELEGATE_TwoParams(FDelegateSignatureParam2, FLinearColor, int32)
 
 
+DECLARE_DELEGATE(FGameOverDelegate)
+DECLARE_DELEGATE(FGameClearDelegate)
+
 // =====================================================================
 // 멀티 오브젝트 바인딩용
 
