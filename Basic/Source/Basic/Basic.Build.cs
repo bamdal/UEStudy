@@ -12,9 +12,13 @@ public class Basic : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		PublicIncludePaths.Add(ModuleDirectory);	// "*/Classes_Game/{프로젝트명(Basic)}" 추가
+		PublicIncludePaths.Add("Basic/Character");	// 추가된 Basic에 Character 추가 포함
+													// 이제 헤더파일에 경로에 ../Character해서 찾았던 파일을 그냥 최상단에 쓰면 사용가능
+		
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
+
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
