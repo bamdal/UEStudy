@@ -38,13 +38,17 @@ private:
 	USoundBase* ImpactSound;
 
 	UPROPERTY(EditAnywhere)
-	float MaxRange = 1000;
+	float MaxRange = 2000;
+
+	UPROPERTY(EditAnywhere)
+	float Damage = 10;
 
 public:
 	void PullTrigger();
 
 private:
 	bool GunTrace(FHitResult& Hit, FVector& ShootDirection);
+	bool GunTrace2(FHitResult& Hit, FVector& ShootDirection);
 	AController* GetOwnerController() const;
 
 public:

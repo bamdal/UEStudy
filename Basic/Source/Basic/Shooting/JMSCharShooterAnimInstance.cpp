@@ -4,6 +4,7 @@
 #include "JMSCharShooterAnimInstance.h"
 
 #include "JMSCharBase.h"
+#include "JMSCharShooter.h"
 #include "Kismet/KismetMathLibrary.h"
 
 void UJMSCharShooterAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
@@ -26,6 +27,10 @@ void UJMSCharShooterAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 		AimPitch = Rot.Pitch;
 
 		// 캐릭터에 Health를 토대로 IsDead 체크
-		IsDead = false;
+		AJMSCharShooter* JMSCharShooter = Cast<AJMSCharShooter>(JMSCharBase);
+		if(JMSCharShooter != nullptr)
+		{
+			IsDead = JMSCharShooter->IsDead();
+		}
 	}
 }

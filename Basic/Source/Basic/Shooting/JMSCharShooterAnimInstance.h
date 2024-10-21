@@ -21,6 +21,7 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = AO)
 	float AimPitch = 0.0f;
 
+	// true 면 사망, false면 생존
 	UPROPERTY(BlueprintReadOnly, Category = Shooter)
 	bool IsDead = false;
 
