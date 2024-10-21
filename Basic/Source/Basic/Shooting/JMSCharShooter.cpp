@@ -4,7 +4,7 @@
 #include "JMSCharShooter.h"
 
 #include "EnhancedInputComponent.h"
-#include "Basic/ETC/JMSGun.h"
+#include "JMSGun.h"
 
 
 
