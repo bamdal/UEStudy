@@ -9,8 +9,13 @@
   <component name="ChangeListManager">
     <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Basic.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/Character/AI/BB_EnemyAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/Character/AI/BB_EnemyAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/Character/AI/BP_JMSShooterAIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/Character/AI/BP_JMSShooterAIController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/Character/AI/BT_EnemyAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/Character/AI/BT_EnemyAI.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/L_EX_Shooting.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/L_EX_Shooting.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Shooting/UI/WBP_HUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Shooting/UI/WBP_HUD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Shooting/JMSShooterAIController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Shooting/JMSShooterAIController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Shooting/JMS_BTS_PlayerLocationlSeen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Shooting/JMS_BTS_PlayerLocationlSeen.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +29,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Experimental/WidgetEditorToolPalette/Source/WidgetEditorToolPalette/Private/DefaultTools/CreateWidgetTool.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AITestSuite/Classes/MockAI.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AssetTools/Private/AssetTools.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/FunctionalTesting/Private/FunctionalTest.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/GeometryProcessingInterfaces/Public/GeometryProcessingInterfaces/CombineMeshInstances.h" root0="FORCE_HIGHLIGHTING" />
@@ -33,8 +48,14 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/HierarchicalLODUtilities/Public/IHierarchicalLODUtilities.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BTNode.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BTService.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BTTaskNode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeTypes.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/Services/BTService_BlackboardBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BrainComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/Perception/AIPerceptionComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Private/AIController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Private/BehaviorTree/BTTaskNode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Private/BehaviorTree/BlackboardComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AppFramework/Private/Widgets/Testing/STestSuite.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Private/Math/UnrealMath.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h.inl" root0="FORCE_HIGHLIGHTING" />
@@ -144,21 +165,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.Basic.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.Basic.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CidrLocalAttachDebugger.recentlyUsed">
       <recent name="com.jetbrains.rider.cpp.debugger.RiderCppLLDBDriverConfiguration" />
@@ -264,7 +285,8 @@
       <workItem from="1729212979488" duration="19814000" />
       <workItem from="1729468124640" duration="13647000" />
       <workItem from="1729490099165" duration="5599000" />
-      <workItem from="1729496501437" duration="4134000" />
+      <workItem from="1729496501437" duration="4184000" />
+      <workItem from="1729554777601" duration="5908000" />
     </task>
     <servers />
   </component>
