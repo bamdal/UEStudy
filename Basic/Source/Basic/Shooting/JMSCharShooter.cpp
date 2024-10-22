@@ -6,7 +6,8 @@
 #include "EnhancedInputComponent.h"
 #include "JMSDebugMecros.h"
 #include "JMSGun.h"
-
+#include "JMS_ShooterGameModeBase.h"
+#include "Components/CapsuleComponent.h"
 
 
 void AJMSCharShooter::BeginPlay()
@@ -47,7 +48,10 @@ void AJMSCharShooter::Shoot()
 	}
 }
 
-// 사망 판단 함수
+/**
+ * 사망시 true 생존시 false
+ * @return 해당 캐릭터의 HP가 0 이하면 true 아니면 false
+ */
 bool AJMSCharShooter::IsDead() const
 {
 	return Health <= 0;
@@ -80,6 +84,19 @@ float AJMSCharShooter::TakeDamage(float DamageAmount, FDamageEvent const& Damage
 
 	if(IsDead())
 	{
+
+		AJMS_ShooterGameModeBase* GameMode = GetWorld()->GetAuthGameMode<AJMS_ShooterGameModeBase>();
+		if(GameMode != nullptr)
+		{
+			GameMode->PawnKilled(this);
+		}
+		
+		// 내부에 Controller->UnPossess(); 로 컨트롤러 분리를 한다
+		this->DetachFromControllerPendingDestroy();
+
+		// 캡슐 콜리전 무효화
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		
 		// 내가 죽었는지, 적을 모두 섬멸했는지
 	}
 	

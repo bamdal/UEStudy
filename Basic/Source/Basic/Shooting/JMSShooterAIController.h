@@ -21,8 +21,13 @@ private:
 
 protected:
 	virtual void BeginPlay() override;
-	
+
 public:
 	virtual void Tick(float DeltaTime) override;
-	
+
+	/**
+	 * 사망시 true 생존 시 false
+	 * @return 
+	 */
+	bool IsDead() const;
 };

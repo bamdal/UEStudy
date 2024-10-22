@@ -3,6 +3,8 @@
 
 #include "JMSShooterAIController.h"
 
+#include "JMSCharShooter.h"
+#include "BehaviorTree/BlackboardComponent.h"
 #include "Kismet/GameplayStatics.h"
 
 void AJMSShooterAIController::BeginPlay()
@@ -13,6 +15,12 @@ void AJMSShooterAIController::BeginPlay()
 	if(EnemyBT != nullptr)
 	{
 		RunBehaviorTree(EnemyBT);
+
+		APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(),0);
+		SetFocus(PlayerPawn);
+
+		GetBlackboardComponent()->SetValueAsVector(TEXT("StartLocationKey"),GetPawn()->GetActorLocation());
+		
 	}
 }
 
@@ -39,4 +47,14 @@ void AJMSShooterAIController::Tick(float DeltaTime)
 	// 	// 멈추기
 	// 	StopMovement();
 	// }
+}
+
+bool AJMSShooterAIController::IsDead() const
+{
+	AJMSCharShooter* ControllerdCharacter = Cast<AJMSCharShooter>(GetPawn());
+	if(ControllerdCharacter != nullptr)
+	{
+		return ControllerdCharacter->IsDead();
+	}
+	return true;
 }
