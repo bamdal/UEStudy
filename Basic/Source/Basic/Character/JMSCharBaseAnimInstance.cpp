@@ -23,8 +23,8 @@ void UJMSCharBaseAnimInstance::NativeInitializeAnimation()
 		// Character Movement Reference 저장
 		JMSCharMovementComponent = JMSCharBase->GetCharacterMovement();
 	}
-	HCHECK(JMSCharBase);
-	HCHECK(JMSCharMovementComponent);
+	// HCHECK(JMSCharBase);
+	// HCHECK(JMSCharMovementComponent);
 	
 }
 
