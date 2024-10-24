@@ -9,16 +9,17 @@
   <component name="ChangeListManager">
     <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic.uproject.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Basic.uproject.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Action/AN_AttachWeaponActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/AN_AttachWeaponActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Action/AnimNotify/ANT_CollisionTrace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/AnimNotify/ANT_CollisionTrace.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Action/BP_BaseWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/BP_BaseWeapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Action/BP_CollisionComponent.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Action/BP_GrateSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/BP_GrateSword.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Action/BP_PickUpActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/BP_PickUpActor.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Action/BP_ToughSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/BP_ToughSword.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Action/Character/BP_JMSCharAction.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/Character/BP_JMSCharAction.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Action/Character/IMC_Action.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/Character/IMC_Action.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EX_Action/Component/BP_CollisionComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/Component/BP_CollisionComponent.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EX_Action/L_Action.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/L_Action.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Action/BaseEquippable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Action/BaseEquippable.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Basic/Action/BaseEquippable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Action/BaseEquippable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Basic/Action/JMSEnumFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Basic/Action/JMSEnumFile.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Experimental/WidgetEditorToolPalette/Source/WidgetEditorToolPalette/Private/DefaultTools/CreateWidgetTool.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AITestSuite/Classes/MockAI.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AssetTools/Private/AssetTools.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -131,6 +158,7 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/include/atomic" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/Basic/UHT/BaseEquippable.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/Basic/UHT/DeadZone.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Basic/EventAndDelegate/MulticastDelegateListener.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Basic/EventAndDelegate/MulticastDelegateParamListener.h" root0="FORCE_HIGHLIGHTING" />
@@ -173,21 +201,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.Basic.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CppCodeGenerationId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.Basic.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CppCodeGenerationId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CidrLocalAttachDebugger.recentlyUsed">
       <recent name="com.jetbrains.rider.cpp.debugger.RiderCppLLDBDriverConfiguration" />
@@ -297,7 +325,7 @@
       <workItem from="1729554777601" duration="10049000" />
       <workItem from="1729571420582" duration="11067000" />
       <workItem from="1729640832331" duration="17589000" />
-      <workItem from="1729727515087" duration="4229000" />
+      <workItem from="1729727515087" duration="11834000" />
     </task>
     <servers />
   </component>

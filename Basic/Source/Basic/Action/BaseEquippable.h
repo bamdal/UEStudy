@@ -38,12 +38,6 @@ private:
 	UFUNCTION(BlueprintCallable, Category="ItemMesh")
 	void AttachActor(FName SocketName);
 
-	/**
-	 * 아이템 장착 함수
-	 * @param SocketName 
-	 */
-	UFUNCTION(BlueprintCallable)
-	void OnEquipped();
 
 	/**
 	 * 아이템 해제 함수
@@ -56,6 +50,12 @@ private:
 	bool IsEquipped = false;
 
 public:
+	/**
+	 * 아이템 장착 함수 (파생 클래스가 BP일 경우 BlueprintNativeEvent 사용)
+	 * @param SocketName 
+	 */
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void OnEquipped();
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="SocketName")
 	FName AttachSocketName;

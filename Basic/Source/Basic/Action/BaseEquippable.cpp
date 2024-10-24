@@ -67,13 +67,13 @@ void ABaseEquippable::AttachActor(FName SocketName)
 	}
 }
 
-void ABaseEquippable::OnEquipped()
-{
-	SetIsEquipped(true);
-	AttachActor(AttachSocketName);
-}
-
 void ABaseEquippable::UnEquipped()
 {
 	SetIsEquipped(false);
+}
+
+void ABaseEquippable::OnEquipped_Implementation()
+{
+	SetIsEquipped(true);
+	AttachActor(AttachSocketName);
 }
