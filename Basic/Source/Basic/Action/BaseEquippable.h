@@ -57,7 +57,7 @@ private:
 
 public:
 
-	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="SocketName")
 	FName AttachSocketName;
 	
 	void SetIsEquipped(bool Equip){IsEquipped = Equip;}
