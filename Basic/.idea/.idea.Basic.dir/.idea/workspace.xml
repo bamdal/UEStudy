@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/EX_Action/Character/BP_JMSCharAction.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/Character/BP_JMSCharAction.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Action/Character/IMC_Action.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/Character/IMC_Action.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EX_Action/L_Action.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EX_Action/L_Action.umap" afterDir="false" />
-    </list>
+    <list default="true" id="41fd778e-3117-4675-817f-495e364e7e1b" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -292,6 +288,7 @@
       <workItem from="1729640832331" duration="17589000" />
       <workItem from="1729727515087" duration="11932000" />
       <workItem from="1729813522848" duration="3486000" />
+      <workItem from="1730072971165" duration="664000" />
     </task>
     <servers />
   </component>
