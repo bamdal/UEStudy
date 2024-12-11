@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "BaseEquippable.generated.h"
 
+class UJMS_CombatComponent;
+class UJMS_CollisionComponent;
 /**
  * 장착 가능한 아이템들이 상속받는 클래스
  */
@@ -15,6 +17,7 @@ class BASIC_API ABaseEquippable : public AActor
 	GENERATED_BODY()
 
 private:
+	UPROPERTY()
 	USceneComponent* DefaultSceneRoot;
 
 	UPROPERTY(EditAnywhere)
@@ -38,16 +41,14 @@ private:
 	UFUNCTION(BlueprintCallable, Category="ItemMesh")
 	void AttachActor(FName SocketName);
 
-
-	/**
-	 * 아이템 해제 함수
-	 */
-	UFUNCTION(BlueprintCallable)
-	void UnEquipped();
-
+	UPROPERTY()
+	UJMS_CombatComponent* CombatComponent;
 
 	UPROPERTY(VisibleDefaultsOnly)
 	bool IsEquipped = false;
+
+	UPROPERTY()
+	UJMS_CollisionComponent* CollisionComponent;
 
 public:
 	/**
@@ -59,10 +60,25 @@ public:
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="SocketName")
 	FName AttachSocketName;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="SocketName")
+	FName HandSocketName;
 	
 	void SetIsEquipped(bool Equip){IsEquipped = Equip;}
+	
 	bool GetIsEquipped(){return IsEquipped;}
 
+	/**
+ * 아이템 해제 함수
+ */
+	UFUNCTION(BlueprintCallable)
+	void UnEquipped();
+
+
+
+protected:
+	void OnHit(const FHitResult& Hit);
+	
 public:
 	// Sets default values for this actor's properties
 	ABaseEquippable();

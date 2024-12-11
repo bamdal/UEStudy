@@ -4,10 +4,50 @@
 #include "JMSCharAction.h"
 
 #include "EnhancedInputComponent.h"
+#include "JMSEnumFile.h"
+#include "Component/JMS_CombatComponent.h"
+#include "Component/JMS_StatemanagerComponent.h"
+
+
+AJMSCharAction::AJMSCharAction()
+{
+	CombatComponent = CreateDefaultSubobject<UJMS_CombatComponent>(TEXT("CombatComponent"));
+	AddInstanceComponent(CombatComponent);
+	
+	StatemanagerComponent = CreateDefaultSubobject<UJMS_StatemanagerComponent>(TEXT("StatemanagerComponent"));
+	AddInstanceComponent(StatemanagerComponent);
+}
+
+
+void AJMSCharAction::OnStateBegin(E_CharacterState CharacterState)
+{
+	if(CharacterState == E_CharacterState::Dead)
+	{
+		PerformDeath();
+	}
+
+
+}
+
+void AJMSCharAction::PerformDeath()
+{
+	EnableRagdoll();
+	ApplyHitReactionPhycisVelocity();
+	
+}
+
+void AJMSCharAction::EnableRagdoll()
+{
+}
+
+void AJMSCharAction::ApplyHitReactionPhycisVelocity()
+{
+}
 
 void AJMSCharAction::BeginPlay()
 {
 	Super::BeginPlay();
+	CurrentHealth = MaxHealth;
 }
 
 void AJMSCharAction::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -34,4 +74,24 @@ void AJMSCharAction::ToggleAction()
 
 void AJMSCharAction::Attack()
 {
+}
+
+
+
+void AJMSCharAction::ContinueAttack()
+{
+	StatemanagerComponent->SetState(E_CharacterState::Nothing);
+}
+
+void AJMSCharAction::ResetAttack()
+{
+	CombatComponent->ResetAttack();
+	StatemanagerComponent->ResetState();
+	StatemanagerComponent->SetCurrentAction(E_CharacterAction::Nothing);
+}
+
+bool AJMSCharAction::CanReceiveDamage()
+{
+	return StatemanagerComponent->GetCurrentState() != E_CharacterState::Dead;
+
 }
