@@ -15,14 +15,21 @@ class BASIC_API UJMS_CombatComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
+	UFUNCTION(BlueprintCallable)
 	void SetMainWeapon(ABaseEquippable* BaseWeapon);
-	
+
+	UFUNCTION(BlueprintPure)
 	ABaseEquippable* GetMainWeapon();
 
+	UFUNCTION(BlueprintCallable)
 	void ResetAttack();
 
+	UFUNCTION(BlueprintCallable)
 	bool IsCombatEnable();
-
+	
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	int32 AttackCount = 0;
+	
 private:
 	UPROPERTY()
 	ABaseEquippable* MainWeapon;
@@ -31,7 +38,7 @@ private:
 
 	bool IsAttackSaved =false;
 
-	int32 AttackCount = 0;
+
 
 	float Health = 0;
 public:	

@@ -10,7 +10,6 @@ public class Basic : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","EnhancedInput" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		PublicIncludePaths.Add(ModuleDirectory);	// "*/Classes_Game/{프로젝트명(Basic)}" 추가
 		PublicIncludePaths.Add("Basic/Character");	// 추가된 Basic에 Character 추가 포함

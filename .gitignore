@@ -76,15 +76,13 @@ DerivedDataCache/*
 # 수업용 추가 무시
 Basic/Intermediate/*
 Basic/Saved/*
-Basic/Content/_Asset/*
-Basic/Content/EX06/Character/UE5Mannequin/*
-Basic/Content/EX06/Character/Animation/*
-Basic/Content/StarterContent/*
-Basic/Content/LowPoly_Cat/*
-Basic/Content/SKnight_modular/*
-Basic/Content/BookHeadMonster/*
-Basic/Content/Characters/*
-Basic/*.zip
+Basic/!Content/
+Basic/Content/*
+Basic/!Content/BP/**.uasset
+Basic/Build/*
+Basic/Plugins/*
+
+
 Basic/StarterContent/*
 Basic/Binaries/*
 Basic/.vsconfig
@@ -96,3 +94,4 @@ Basic/.vsconfig
 **/Weapons/*
 **/ParagonWraith/*
 **/Anim/*
+**/*.zip

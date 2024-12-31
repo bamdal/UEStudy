@@ -23,12 +23,13 @@ void AJMSCharAction::OnStateBegin(E_CharacterState CharacterState)
 {
 	if(CharacterState == E_CharacterState::Dead)
 	{
-		PerformDeath();
+		//PerformDeath();
 	}
 
 
 }
 
+/*
 void AJMSCharAction::PerformDeath()
 {
 	EnableRagdoll();
@@ -43,6 +44,7 @@ void AJMSCharAction::EnableRagdoll()
 void AJMSCharAction::ApplyHitReactionPhycisVelocity()
 {
 }
+*/
 
 void AJMSCharAction::BeginPlay()
 {
@@ -78,6 +80,7 @@ void AJMSCharAction::Attack()
 
 
 
+/*
 void AJMSCharAction::ContinueAttack()
 {
 	StatemanagerComponent->SetState(E_CharacterState::Nothing);
@@ -95,3 +98,4 @@ bool AJMSCharAction::CanReceiveDamage()
 	return StatemanagerComponent->GetCurrentState() != E_CharacterState::Dead;
 
 }
+*/

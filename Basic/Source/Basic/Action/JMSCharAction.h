@@ -14,7 +14,7 @@ class UJMS_CombatComponent;
  * 
  */
 UCLASS()
-class BASIC_API AJMSCharAction : public AJMSCharBase,public IJMS_EX_Action
+class BASIC_API AJMSCharAction : public AJMSCharBase
 {
 	GENERATED_BODY()
 private:
@@ -24,7 +24,7 @@ private:
 	FName PelvisBoneName = TEXT("pelvis");
 public:
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	int32 MaxHealth = 100;
 	
 	AJMSCharAction();
@@ -35,14 +35,14 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	UInputAction* IA_Attack;
 
-	UFUNCTION()
+	/*UFUNCTION()
 	void ContinueAttack();
 	
 	UFUNCTION()
 	void ResetAttack();
 	
 	UFUNCTION()
-	bool CanReceiveDamage();
+	bool CanReceiveDamage();*/
 
 	UPROPERTY()
 	UJMS_CombatComponent* CombatComponent;
@@ -53,14 +53,15 @@ public:
 	UFUNCTION()
 	void OnStateBegin(E_CharacterState CharacterState);
 
+	/*
 	// 사망 시작 처리
 	UFUNCTION()
-	void PerformDeath();
+	void PerformDeath();*/
 
-	UFUNCTION()
+	/*UFUNCTION()
 	void EnableRagdoll();
 	UFUNCTION()
-	void ApplyHitReactionPhycisVelocity();
+	void ApplyHitReactionPhycisVelocity();*/
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
